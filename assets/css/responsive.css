@@ -1,0 +1,100 @@
+@media(max-width: 991px){
+	.portfolio-section .portfolio-item,
+	.service-section .service-item{
+		flex: 0 0 50%;
+        max-width: 50%;
+	}
+}
+/* Responsive de .about-section .about-info en donde para resoluciones menores a 522 se centre el objeto btn-1 outer-shadow hover-in-shadow y se coloquen 2 columnas y 2 filas , dando un espacio entre btn para que se vea de manera ordenada*/
+@media(max-width: 522px){
+	.about-section .about-info{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, auto);
+		grid-gap: 20px;
+		text-align: center;
+	}
+	.about-section .about-info .btn{
+		margin: 0 auto;
+	}
+}
+@media(max-width: 767px){
+	.contact-section .w-50,
+	.contact-section .contact-item,
+	.portfolio-popup .description,
+	.portfolio-popup .info,
+	.portfolio-section .portfolio-item,
+	.service-section .service-item,
+	.about-section .skills .skill-item,
+	.about-section .about-info,
+	.about-section .about-img,
+	.home-section .home-text, 
+	.home-section .home-img{
+		flex: 0 0 100%;
+        max-width: 100%;
+	}
+	.home-section .home-text{
+		order: 2;
+	}
+	.contact-section .submit-btn,
+	.home-section .home-text{
+		text-align: center;
+	}
+	.home-section .full-screen{
+		padding: 100px 0;
+	}
+	.home-section .home-img .img-box{
+		margin-bottom: 40px;
+		max-width: 350px;
+	}
+	.effect-3{
+		margin-left: -60px;
+	}
+	.effect-4{
+		left: 15%;
+	}
+	.effect-5{
+		right: 4%;
+	}
+	.about-section .about-img{
+		padding-bottom: 30px;
+	}
+	.about-section .timeline .timeline-item:nth-child(odd){
+		padding-right: 15px;
+        text-align: left;
+        padding-left: 75px;
+	}
+	.about-section .timeline .timeline-item:nth-child(even){
+		padding-left: 75px;
+	}
+	.about-section .timeline:before{
+		left: 35px;
+	}
+	.about-section .timeline .timeline-item:nth-child(odd) .icon{
+		right: auto;
+		left: -60px;
+	}
+	.about-section .timeline .timeline-item:nth-child(even) .icon{
+	    left: -60px;	
+	}
+	.about-section .timeline .timeline-item{
+		margin-bottom: 40px;
+	}
+	.about-section .timeline .timeline-item:last-child{
+		margin-bottom:0;
+	}
+	.about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner:before{
+		left:-30px;
+		right:auto;
+	}
+}
+
+@media(max-width: 574px){
+	.home-section .home-img .img-box{
+		max-width: 260px;
+	}
+    .home-section .home-text h3, h2{
+    	font-size: 40px;
+    }
+}
+
+
