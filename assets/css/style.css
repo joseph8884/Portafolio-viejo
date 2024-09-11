@@ -77,6 +77,7 @@ img{
 .row{
    display: flex;
    flex-wrap: wrap;
+   margin: 0 5% 0 5%;
 }
 .justify-content-between{
    justify-content: space-between;
@@ -112,7 +113,7 @@ img{
 }
 .btn-1{
    padding: 10px 25px;
-   font-size: 16px;
+   font-size: 20px;
    font-weight: 500;
    color: var(--skin-color);
    background-color: transparent;
@@ -631,12 +632,6 @@ about section
    color: var(--text-black-600);
    padding: 0 20px;
    font-size: 30px;
-}
-
-.about-section .skills .skill-item .progress{
-   height: 20px;
-   border-radius: 10px;
-   position: relative;
 }
 .about-section .skills .skill-item .progress-bar{
    background-color: var(--text-black-600);
@@ -1392,6 +1387,10 @@ contact section
    }
 }
 
+b{
+   font-weight: 1000;
+}
+
 img, h2, div{
    view-timeline-name: --image;
    view-timeline-axis: block;
@@ -1399,9 +1398,6 @@ img, h2, div{
    animation-timeline: --image;
    animation-name:show;
 
-   animation-range: entry 25% cover 30%;
+   animation-range: entry 10% cover 15%;
    animation-fill-mode: both;
-}
-b{
-   font-weight: 1000;
 }
