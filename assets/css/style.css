@@ -645,7 +645,7 @@ about section
 }
 
 .about-section .skills .skill-item .progress-bar.animate {
-   animation: growOnCreate 3s ease-out forwards; /* Updated animation */
+   animation: growOnCreate 4s ease-out forwards; /* Updated animation */
 }
 
 @keyframes growOnCreate { /* New animation */
@@ -769,8 +769,8 @@ service section
    min-height: 100vh;
 }
 .service-section .service-item{
-   flex:0 0 33.33%;
-   max-width: 33.33%;
+   flex:0 0 50%; 
+   max-width: 50%; 
    padding:15px;
    display: flex;
    flex-wrap: wrap;
