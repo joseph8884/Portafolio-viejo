@@ -67,6 +67,34 @@
   })
 
 })();
+/*----------------- skills animation progress bar --------------------*/
+document.addEventListener('DOMContentLoaded', function() {
+  const progressBars = document.querySelectorAll('.about-section .skills .skill-item .progress-bar');
+
+  function isElementInViewport(el) {
+      const rect = el.getBoundingClientRect();
+      return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+  }
+
+  function checkProgressBars() {
+      progressBars.forEach(bar => {
+          if (isElementInViewport(bar)) {
+              bar.classList.add('animate');
+          }
+      });
+  }
+
+  window.addEventListener('scroll', checkProgressBars);
+  window.addEventListener('resize', checkProgressBars);
+
+  // Initial check in case the element is already in view
+  checkProgressBars();
+});
 
 /*------------ about section tabs ------------------*/
 
