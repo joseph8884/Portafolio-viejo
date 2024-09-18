@@ -411,7 +411,7 @@ navigation menu
    line-height: 35px;
    border-radius: 50%;
    position: absolute;
-   right: 15px;
+   right: 11%;
    top:15px;
    cursor: pointer;
    text-align: center;
@@ -1404,6 +1404,13 @@ contact section
 
 b{
    font-weight: 1000;
+}
+.creditos_webelopers{
+   display: block;
+   font-weight: 600;
+   color: var(--text-black-600);
+   text-align: center;
+   margin-top: 20px;
 }
 
 img, h2, div{

@@ -282,33 +282,28 @@ const role = document.querySelector('.role')
 
 const testimonials = [
   {
-    name: 'Ana Martínez',
-    position: 'Gerente de La Fuente - Colegio Educativo',
-    photo:
-      'https://fotoartevip.cl/img/portafolio/fotos-para-linkedin/Fotografia%20Corporativa.jpg',
-    text:
-      "Como gerente de La Fuente, puedo afirmar que la colaboración con Webelopers ha sido una experiencia transformadora. La página web que crearon para nuestro colegio no solo es visualmente atractiva, sino que también ha simplificado enormemente la comunicación con padres, estudiantes y personal. La integración de funciones personalizadas ha optimizado la gestión interna y ha mejorado la experiencia educativa de nuestra comunidad. Estamos agradecidos por la profesionalidad y creatividad que Webelopers ha aportado a nuestro proyecto.",
+    name: 'Cliente A',
+    position: 'Gerente de Institución Educativa',
+    photo: './assets/img/testimonio/german_la_fuente.jpg',
+    text: "La colaboración con Webelopers ha sido transformadora. La página web creada no solo es visualmente atractiva, sino que ha simplificado enormemente la comunicación institucional. La integración de funciones personalizadas ha optimizado la gestión interna y mejorado la experiencia educativa. La profesionalidad y creatividad de Webelopers han sido fundamentales para el éxito del proyecto.",
   },
   {
-    name: '',
-    position: 'Dueño-Panda Sport Bar',
-    photo: 'https://images.unsplash.com/photo-1606663889134-b1dedb5ed=format&fit=crop&w=387&q=80',
-    text:
-      "La creación de la página web de Panda Sport Bar por parte de Webelopers ha sido un éxito rotundo. Su equipo demostró un profundo conocimiento de las necesidades de nuestro negocio y creó un sitio web que refleja nuestra identidad de marca y valores. La página es fácil de navegar y ha mejorado significativamente la visibilidad de nuestro bar en línea. Estamos muy satisfechos con el resultado y con la colaboración que hemos tenido con Webelopers.",
+    name: 'Cliente B',
+    position: 'Propietario de Establecimiento de Ocio',
+    photo: './assets/img/testimonio/alejandro.jpg',
+    text: "Webelopers ha demostrado un profundo conocimiento de las necesidades de nuestro negocio. El sitio web creado refleja perfectamente nuestra identidad de marca y valores. Su facilidad de navegación ha mejorado significativamente nuestra visibilidad en línea. Estamos muy satisfechos con el resultado y la colaboración.",
   },
   {
-    name: 'Juan Grau',
-    position: 'Administrativo-Ferretería JF',
-    photo: "./assets/img/portfolio/alejandro.jpg",
-    text:
-      "Como administrativo de Ferretería JF, puedo afirmar que la colaboración con Webelopers ha sido una experiencia transformadora. La página web que crearon para nuestro negocio no solo es visualmente atractiva, sino que también ha simplificado enormemente la comunicación con clientes y proveedores. La integración de funciones personalizadas ha optimizado la gestión interna y ha mejorado la experiencia de compra de nuestros clientes. Estamos agradecidos por la profesionalidad y creatividad que Webelopers ha aportado a nuestro proyecto.",
+    name: 'Cliente C',
+    position: 'Administrativo de Empresa de Suministros',
+    photo: "./assets/img/testimonio/juan.jpg",
+    text: "La página web desarrollada por Webelopers ha simplificado enormemente nuestra comunicación con clientes y proveedores. Las funciones personalizadas han optimizado la gestión interna y mejorado la experiencia de compra. La profesionalidad y creatividad aportadas al proyecto han sido excepcionales.",
   },
   {
-    name: 'Alejandro',
-    position: 'Dueño-Comercializadora Ale',
-    photo: 'https://images.unsplash.com/photo-1606663889134-b1dedb5ed=format&fit=crop&w=387&q=80',
-    text:
-      "La creación de la página web de Comercializadora Ale por parte de Webelopers ha sido un éxito rotundo. Su equipo demostró un profundo conocimiento de las necesidades de nuestro negocio y creó un sitio web que refleja nuestra identidad de marca y valores. La página es fácil de navegar y ha mejorado significativamente la visibilidad de nuestro negocio en línea. Estamos muy satisfechos con el resultado y con la colaboración que hemos tenido con Webelopers.",
+    name: 'Cliente D',
+    position: 'Directora de Empresa Comercial',
+    photo: './assets/img/testimonio/Mama de un amigo.jpg',
+    text: "Webelopers ha creado un sitio web que refleja perfectamente nuestra identidad de marca y valores. Su facilidad de navegación ha mejorado significativamente nuestra visibilidad en línea. El equipo demostró un profundo conocimiento de nuestras necesidades comerciales. Estamos muy satisfechos con el resultado y la colaboración.",
   }
 ]
 

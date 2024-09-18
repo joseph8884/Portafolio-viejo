@@ -86,6 +86,8 @@
 		left:-30px;
 		right:auto;
 	}
+	
+
 }
 
 @media(max-width: 574px){
@@ -95,6 +97,17 @@
     .home-section .home-text h3, h2{
     	font-size: 40px;
     }
+	
+	img, h2, div{
+		view-timeline-name: --image;
+		view-timeline-axis: block;
+	
+		animation-timeline: --image;
+		animation-name:show;
+	
+		animation-range: entry 0% cover 0%;
+		animation-fill-mode: both;
+	}
 }
 
 
